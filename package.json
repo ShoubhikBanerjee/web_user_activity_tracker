@@ -1,0 +1,30 @@
+{
+  "name": "web_user_activity_tracker",
+  "version": "1.0.0",
+  "description": "This package helps you to track and log user activity , user interaction flow, unique user browser id, and some other brower metadata .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShoubhikBanerjee/web_user_activity_tracker.git"
+  },
+  "keywords": [
+    "React-activity-tracker",
+    "web-user-interaction",
+    "react-user-metadata",
+    "user-interaction-flow",
+    "activity-monitoring"
+  ],
+  "author": "Shoubhik Banerjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShoubhikBanerjee/web_user_activity_tracker/issues"
+  },
+  "homepage": "https://github.com/ShoubhikBanerjee/web_user_activity_tracker#readme",
+  "dependencies": {
+    "@fingerprintjs/fingerprintjs": "^3.3.3",
+    "rrweb": "^1.1.3"
+  }
+}
