@@ -1,1 +1,2 @@
-# React Js Web User Activity & Interaction Tracking Service
+# Web User Activity & Interaction Tracking Service - Javascript
+
