@@ -15,26 +15,29 @@
 
 The index.js file exports a class `UAT_TRACKER` . So you need to initialize it as constructor.
 
-    # can be used after NPM release
-	const tracker = require('web_user_activity_tracker'); 
-	# used to initialize the constructor
-	const uat_tracker = new tracker.UAT_TRACKER(); 
+```javascript
+# can be used after NPM release
+const tracker = require('web_user_activity_tracker'); 
+
+# used to initialize the constructor
+const uat_tracker = new tracker.UAT_TRACKER(); 
     
+```
 
 #### Other important methods :
 ```javascript
-	# Start the service 
-	uat_tracker.start();
-	
-	#Stop the service
-	uat_tracker.stop();
-	
-	#Reset the service
-	uat_tracker.reset();
-	
-	#Get tracking data
-	uat_tracker.getTrackingData();
-	
+# Start the service 
+uat_tracker.start();
+
+#Stop the service
+uat_tracker.stop();
+
+#Reset the service
+uat_tracker.reset();
+
+#Get tracking data
+uat_tracker.getTrackingData();
+
 ```
 
 #### Fetching tracking data at interval 　
