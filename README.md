@@ -46,5 +46,24 @@ const myTimeout = setInterval( getTrackingData, 5000 );
 
 ```
 
+#### Using as CDN 　
+
+```javascript
+<script src="dist/index.min.js"  type="text/javascript"></script>
+
+# Reset Data
+reset();
+
+# Start Recording
+startRecoding();
+
+# Stop Recording
+stopRecording();
+
+# Log Recorded Data
+console.log(getTrackingData());
+
+```
+
 
 ### End
