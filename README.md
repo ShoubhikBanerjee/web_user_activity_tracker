@@ -29,13 +29,13 @@ const uat_tracker = new tracker.UAT_TRACKER();
 # Start the service 
 uat_tracker.start();
 
-#Stop the service
+# Stop the service
 uat_tracker.stop();
 
-#Reset the service
+# Reset the service
 uat_tracker.reset();
 
-#Get tracking data
+# Get tracking data
 uat_tracker.getTrackingData();
 
 ```
