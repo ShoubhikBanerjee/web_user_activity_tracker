@@ -22,6 +22,7 @@ The index.js file exports a class `UAT_TRACKER` . So you need to initialize it a
     
 
 #### Other important methods :
+```javascript
 	# Start the service 
 	uat_tracker.start();
 	
@@ -33,6 +34,8 @@ The index.js file exports a class `UAT_TRACKER` . So you need to initialize it a
 	
 	#Get tracking data
 	uat_tracker.getTrackingData();
+	
+```
 
 #### Fetching tracking data at interval 　
 
