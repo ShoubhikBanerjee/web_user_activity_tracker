@@ -10,6 +10,7 @@
 # How to use it ?
 - Clone the repo
 - Entrypoint (main file) is  :  `index.js` file in the root.
+- **NOTE :** Tracking works best with **elements having `id`** tag. Make sure to assign `id` to each element (if you want to track it).
 
 #### Initialization :
 
@@ -53,6 +54,7 @@ const myTimeout = setInterval( getTrackingData, 5000 );
 ```
 
 #### Using as CDN 　
+A working demo is under **[test/cdn/](test/cdn)** directory
 
 ```javascript
 <script src="dist/index.min.js"  type="text/javascript"></script>
@@ -70,6 +72,9 @@ stopRecording();
 console.log(getTrackingData());
 
 ```
+
+#### Output 
+You can find the output of the tracker in **[output/TrackingResult.json](output/TrackingResult.json)** file.
 
 
 ### End
